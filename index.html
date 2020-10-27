@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Search From Table</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="app.js"></script>
+    <style>
+    body{background-color: rgb(183, 170, 255);}
+    table{
+        text-align: center;
+        width: 100%;  border-collapse: collapse;
+    }
+    #searchTable tr{
+        border: 1px solid gray;
+        padding: 8px;
+        text-align: left;
+        
+}
+    #searchTable td,#searchTable th{
+    padding: 1%;
+}
+    #searchTable tr:hover {
+        background-color: #ddd;
+        }
+    </style>
+</head>
+<body><h1 style="text-align: center;">Students</h1>
+    <input type="search" name="" id="inputBox" placeholder="Enter name you want to search" onkeyup="Searchfun();"  style="width: 100%; margin-bottom: 1%; height: 30px;border-radius: 24px;outline: none;">
+    <table id="searchTable">
+        <tr style="background-color: #ddd;">
+            <th style="width: 40%;">Name</th>
+            <th style="width:30%;">Class</th>
+            <th style="width:40%;">Field</th>
+        </tr>
+        <tr>
+            <td>Shahzeb</td>
+            <td>Master</td>
+            <td>Science</td>
+        
+        
+        </tr>
+        <tr>
+            <td>Waleed</td>
+            <td>Master</td>
+            <td>Computer Science</td>
+        
+        
+        </tr>
+        <tr>
+            <td>Hassan</td>
+            <td>Master</td>
+            <td>Business</td>
+        
+        
+        </tr>
+        <tr>
+                <td>Ali</td>
+                <td>Bachelor</td>
+                <td>Commerce</td>
+        </tr>
+    </table>
+
+
+</body>
+</html>
